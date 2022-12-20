@@ -1,0 +1,29 @@
+{
+  "name": "meteor-log-iot",
+  "version": "1.0.0",
+  "description": "IoT weather station based on ESP32",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lncgomz/MeteorLogIOT.git"
+  },
+  "keywords": [
+    "esp32",
+    "iot"
+  ],
+  "author": "Leoncio Gómez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lncgomz/MeteorLogIOT/issues"
+  },
+  "homepage": "https://github.com/lncgomz/MeteorLogIOT#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sequelize": "^6.27.0",
+    "tedious": "^15.1.2"
+  }
+}
